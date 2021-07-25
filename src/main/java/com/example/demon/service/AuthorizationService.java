@@ -1,9 +1,9 @@
-package service;
+package com.example.demon.service;
 
-import exception.InvalidCredentials;
-import exception.UnauthorizedUser;
-import model.Authorities;
-import repository.UserRepository;
+import com.example.demon.exception.InvalidCredentials;
+import com.example.demon.exception.UnauthorizedUser;
+import com.example.demon.model.Authorities;
+import com.example.demon.repository.UserRepository;
 
 import java.util.List;
 
