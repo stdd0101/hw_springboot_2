@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    container_name: hw_springboot_2
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: hw_springboot_2:latest
+    ports:
+      - 8080:8080
